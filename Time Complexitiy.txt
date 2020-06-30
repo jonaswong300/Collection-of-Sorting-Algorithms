@@ -1,0 +1,45 @@
+1. Bubble Sort
+Worst case: O(N square). Worst case when array so reverse sorted
+Best case: O(N), when array is already sorted
+
+2. Selection Sort
+N-1 times throught outer loop
+N - i times through each inner loop
+Average, n/2 times through inner loop
+O(N square)
+
+3. Insertion Sort
+N-1 times through outer loop.
+Variables times through each inner loop.
+On average (n-i)/2 times through each inner loop
+(n-1)(n-1/2) total inner loop
+
+Theta, omega and O is (n square). 
+
+4. Shell Sort
+If n/2, n/4, .... 1 are not optimal, time complexity is O(n square)
+Better intervals are 1, 3, 7, 2 power m -1 (Hibbard) where m = 2, 3,4 , time complexity is O(n power 3/2)
+
+5. Heap Sort
+Heapify function is O(nlgn)
+Sort function  is O(lgn)
+HeapSort is O(nlgn)
+
+6. Quick Sort
+Worst case is when partitiion process always pick greatest or smallest element as pivot, would occur
+When array is already sorted in increasing or decreasing order. 
+O(N square)
+
+Best case is when partition always pick middle element as pivot.
+O (NlgN)
+
+Average case
+O(NLgN)
+
+
+7. Merge Sort
+Merging efficiency is in O(n)
+Merge operation is O(lgn) time recursively.
+Merge sorts always divide itself into two halves and take linear time to merge two halves.
+Hence, time complexity for merge sort is O(nlgn)
+Merge sort uses additional array x[1..n]. If x was local to merge, more storage would be used because of recursive calls.
